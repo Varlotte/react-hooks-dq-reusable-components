@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Inventory from "./Inventory";
 import Shop from "./Shop";
 import potions from "../data";
+import PotionTile from "./PotionTile";
 
 function App() {
   const [gold, setGold] = useState(500);
